@@ -3,6 +3,7 @@
 # Navigate up two directories
 cd ..
 cd ..
+cd ..
 
 # Load environment variables from .env file
 source .env

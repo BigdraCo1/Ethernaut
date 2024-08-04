@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import { CoinFlip } from './CoinFlip.sol';
+import { CoinFlip } from '../question/CoinFlip.sol';
 
 contract CallCoinFlip {
     CoinFlip private flipContract;
