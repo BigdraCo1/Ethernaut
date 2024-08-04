@@ -10,7 +10,7 @@ contract callTelephone {
         telephone = Telephone(_address);
     }
 
-    function call_changeOwner(address _address) public {
-        telephone.changeOwner(_address);
+    function call_changeOwner() public {
+        telephone.changeOwner(msg.sender);
     }
 }
